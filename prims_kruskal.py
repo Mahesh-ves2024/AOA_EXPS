@@ -26,3 +26,23 @@ for k in range(n - 1):
 
     print(x, "-", y, "=", graph[x][y])
     selected[y] = True
+
+
+# 5 Kruskal Algorithm
+
+edges = [[0,1,2],[1,2,3],[1,4,5],[0,3,6],[2,4,7]]
+parent = [0,1,2,3,4]
+
+def find(x):
+    while parent[x] != x:
+        x = parent[x]
+    return x
+
+for e in edges:
+    u,v,w = e
+    a = find(u)
+    b = find(v)
+
+    if a != b:
+        print(u,"-",v,"=",w)
+        parent[a] = b
