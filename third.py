@@ -1,4 +1,4 @@
-# 3(a) Knapsack using Greedy
+ # 3(a) Knapsack using Greedy
 
 profit = [60, 100, 120]
 weight = [10, 20, 30]
