@@ -1,4 +1,4 @@
-# 4 Dijkstra Algorithm
+ # 4 Dijkstra Algorithm
 
 graph = [
     [0, 10, 0, 30, 100],
