@@ -108,3 +108,172 @@ minimum, maximum = min_max(arr, 0, len(arr) - 1)
 
 print("Minimum =", minimum)
 print("Maximum =", maximum)
+
+
+
+
+'''advantages complexity
+1. Insertion Sort
+Time Complexity:
+Best: O(n)
+Avg/Worst: O(n²)
+Advantages:
+Simple
+Works well for small data
+Efficient for nearly sorted arrays
+Disadvantages:
+Slow for large data
+Not suitable for big inputs
+🔹 2. Selection Sort
+Time Complexity:
+Best/Avg/Worst: O(n²)
+Advantages:
+Simple
+Minimum swaps
+Disadvantages:
+Always slow (no best case improvement)
+Not efficient for large data
+🔹 3. Merge Sort
+Time Complexity:
+Best/Avg/Worst: O(n log n)
+Advantages:
+Stable
+Works well for large datasets
+Disadvantages:
+Extra memory required
+Slower than quick sort in practice
+🔹 4. Quick Sort
+Time Complexity:
+Best/Avg: O(n log n)
+Worst: O(n²)
+Advantages:
+Very fast in practice
+In-place (no extra memory)
+Disadvantages:
+Worst case is slow
+Not stable
+🔹 5. Binary Search
+Time Complexity:
+Best: O(1)
+Avg/Worst: O(log n)
+Advantages:
+Very fast
+Efficient for large data
+Disadvantages:
+Works only on sorted arrays
+🔹 6. Min-Max
+Time Complexity:
+Best/Avg/Worst: O(n)
+Advantages:
+Simple
+Fewer comparisons using D&C
+Disadvantages:
+Not much improvement over linear scan
+🔹 7. Fractional Knapsack (Greedy)
+Time Complexity:
+All cases: O(n log n)
+Advantages:
+Optimal solution
+Fast
+Disadvantages:
+Only works for fractional case
+🔹 8. 0/1 Knapsack (DP)
+Time Complexity:
+All cases: O(nW)
+Advantages:
+Gives optimal solution
+Disadvantages:
+High memory usage
+Slow for large capacity
+🔹 9. Job Sequencing
+Time Complexity:
+Best/Avg: O(n log n)
+Worst: O(n²)
+Advantages:
+Maximizes profit
+Simple greedy approach
+Disadvantages:
+Works only for specific conditions
+🔹 10. Dijkstra
+Time Complexity:
+O(V²) or O(E log V)
+Advantages:
+Efficient shortest path
+Faster than Bellman-Ford
+Disadvantages:
+Cannot handle negative weights
+🔹 11. Prim’s Algorithm
+Time Complexity:
+O(V²) or O(E log V)
+Advantages:
+Good for dense graphs
+Disadvantages:
+Slower for sparse graphs
+🔹 12. Kruskal Algorithm
+Time Complexity:
+O(E log E)
+Advantages:
+Simple
+Good for sparse graphs
+Disadvantages:
+Needs cycle detection
+🔹 13. Bellman-Ford
+Time Complexity:
+O(VE)
+Advantages:
+Handles negative weights
+Detects negative cycles
+Disadvantages:
+Slower than Dijkstra
+🔹 14. Floyd-Warshall
+Time Complexity:
+O(V³)
+Advantages:
+Finds all-pairs shortest path
+Disadvantages:
+Very slow for large graphs
+🔹 15. LCS
+Time Complexity:
+O(mn)
+Advantages:
+Accurate result using DP
+Disadvantages:
+High time and space
+🔹 16. Sum of Subsets
+Time Complexity:
+O(2^n)
+Advantages:
+Finds all solutions
+Disadvantages:
+Very slow (exponential)
+🔹 17. Graph Coloring
+Time Complexity:
+O(m^n)
+Advantages:
+Solves constraint problems
+Disadvantages:
+Very slow
+🔹 18. Euclidean Distance
+Time Complexity:
+O(n)
+Advantages:
+Simple
+Fast
+Disadvantages:
+Not suitable for categorical data
+🔹 19. Jaccard Distance
+Time Complexity:
+O(n)
+Advantages:
+Good for set comparison
+Disadvantages:
+Ignores frequency of elements
+🔹 20. Bloom Filter
+Time Complexity:
+Insert/Search: O(k)
+Advantages:
+Very fast
+Memory efficient
+Disadvantages:
+False positives possible
+Cannot delete easily'''
